@@ -1,0 +1,169 @@
+*************************************************Clases para alinear objetos**************************************************************************************
+
+vertical	.row
+	.align-items-center
+			start
+			end
+		.col
+	.align-self-center
+			start
+			end
+
+horizontal	.row
+
+	.justify-content-end
+			center
+			start
+			around
+			between
+	.col
+	justify-self-center
+			start
+			end
+
+********************************************************Margenes y Padding**************************************************************************************
+
+
+
+{Propiedad}		{lados}					-			{tamaño}
+
+	m-p		t-b-l-r-x-y
+(margin-pading)		(top-bottom-left-right-xhorizontal-yvertical,)	-		(0,(eliminar )
+											1,(.25rem)
+											2(.5rem)
+											,3(1) = 16px
+											,4(1.5 rem)
+											,5(3rem)
+ejemplos 
+
+px-3
+pt-4
+mt-1
+
+para usar tamaños con web responsive
+
+p-md-4
+mt-lg-1										,OUT)
+
+
+
+
+
+
+
+*****************************************************Tipografia**********************************************************************************************
+
+
+Encabezados h1-h6
+
+displays 	display-1  - display-6 (no es responsivo)
+
+Lead 		Estilisar texto
+
+
+texto  .text-	justify
+		left
+		center
+		right
+	text -md-
+	     -sm
+
+
+.lowercase
+.uppercase
+.capitalize
+
+
+
+*************************************************************************************Imagenes***************************************************************************************
+
+
+
+.img-fluid  (imagen fluida se adappta al contenedor
+.img-thumbnail  (pone un marco a la imagen)
+
+
+
+********************************************************************************************Bordes**********************************************************************************************
+
+.rounden (hace las esquinas redondeadas)
+
+.border (pone un borde ) - 0(elimina)
+	- top
+	- bottom
+	- left
+	- right
+
+
+
+
+
+
+
+
+.border-primary
+	-secondary
+	-success
+	-danger
+	-warning
+
+*****Redondeado
+
+border-rounded	- top
+		- left
+		- bottom
+		- right
+		- circle
+
+
+Propiedad display (css)
+
+inline(mantiene los elmentos en linea) (no se le pueden agregar margen)
+block( los amontona en horizontal)
+inline-block(ambas)
+
+.d-none (no lo despliega)
+.d-inline
+.d-block
+.d-inline-block
+
+
+.d-sm-
+.d-md-
+.d-lg-
+.d-xl-
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
