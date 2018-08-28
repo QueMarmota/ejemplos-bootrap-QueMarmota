@@ -136,14 +136,48 @@ inline-block(ambas)
 
 
 
+******************************************************************************Componentes***************************************************************************
+23/08/2018
+
+Formularios
+
+Tablas
+
+Dialogos moldales
+
+Alertas
+
+Carruseles
+
+
+**Formularios
+
+Clases
+	input
+	
+		.form-control(ocupa todo el ancho del contenedor) , form-check   form-check-input  form-check-label(para checkbox y radiobuttons)
+		btn-	primary , secondary , success
+		btn-block	,btn-outline-primary		
+
+	div
+		.form-group(OCUPA EL ANCHO DE 12 COL y da margenes)
+
+		.FORM-INLINE(ACOMODAR LOS ELEMENTOS EN LINEA)
+		.FORM-ROW(varius input en una linea)
+		.FORM-CONTROL-SM(LO HACE MAS PEQUEÑO)
+		form-check(este va en el div que contiene al check box)
+		form-check-input(este va en el input dell check box)
+		form-check-label
 
 
 
-
+****************************************************fORMAS DE ACOMODO********************************************************************************************
 
 
 
  
+OFFSET-3 PARA DAR ESPACIADO A LAS COLUMNAS
+OFFSET-SM-3
 
 
 
@@ -155,13 +189,37 @@ inline-block(ambas)
 
 
 
+*********************************************************************VALIDACION DE FORMULARIOS**************************************************************************
+
+Form
+
+a ) Default (navegador html5)
+			required
+
+b) Personalizadas (bootstrap ,javascript,jquery)
+
+
+form.needs-validation
+
+
+	form-control .validate-feedback
+		     .invalid-feedback
 
 
 
 
 
+EN el	btn-enviar 
 
+Codigo js
+ addEventListener('submit',function(event){
 
+		if(formulario.checkValidity())===false)
+			event.preventdefault();
+
+		formulario .classlist.add('was-validate')//esta clase hace q aparezca la retroalimentacion osea las clases .valid-feedback o invalid-feedbak
+
+	})
 
 
 
