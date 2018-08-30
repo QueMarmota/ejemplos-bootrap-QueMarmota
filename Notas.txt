@@ -199,6 +199,9 @@ a ) Default (navegador html5)
 b) Personalizadas (bootstrap ,javascript,jquery)
 
 
+
+
+
 form.needs-validation
 
 
@@ -220,6 +223,61 @@ Codigo js
 		formulario .classlist.add('was-validate')//esta clase hace q aparezca la retroalimentacion osea las clases .valid-feedback o invalid-feedbak
 
 	})
+
+
+
+
+
+***************************************************************ALERTAS Y MODALES*******************************-**********************************************************
+
+ALERT
+
+div.alert
+	.alert-warning
+
+			Encabezado.Alert-heading	X(close).data-dismiss="alert"
+			
+			texto
+
+
+
+MODAL(.modal)
+
+
+					x.button-close (data-dismiss=modal     &times)
+		
+		ENcabezado(.modal-header)
+
+		Contenido(.modal-body)
+
+		pie de pagina (modal-footer)
+
+
+					boton cerrar .close .data-dismiss="modal"
+
+
+
+
+
+
+
+Para mostrar modal (.data-toggle en el button)
+			.data-target="#idmodal"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
