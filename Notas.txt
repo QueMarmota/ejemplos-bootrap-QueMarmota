@@ -273,6 +273,33 @@ Para mostrar modal (.data-toggle en el button)
 
 
 
+*********************************************************NAVBAR**************************************************************************************
+
+
+
+.navbar
+.navbar-light
+.navbar.expand-md
+-------------------------------------------------------------------------------------------------------------------
+			      | - |button.navbar-toggler  data-toggle="collapse" data-target="mimenu"
+			      |	- |span.navbar-toggler-icon			a.nav-link
+	Logo. a.navbar-brand  |	- |	ul.navbar-nav ->Inicio-li.nav.item 		Servicios		Contacto
+							div.collapse id="mimenu"
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
