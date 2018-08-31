@@ -292,13 +292,31 @@ Para mostrar modal (.data-toggle en el button)
 
 
 
+*******************************************************************CARRUSEL************************************************************************************************************
+				data-interval=nnumero de milisegundos que durara cada diapositiva
+				id="mi-carousel"
+				data-ride="carousel"(propiedad q hace el carousel empieca a moverse al cargar la pag)
+
+		div.carousel						
+			.slide
+----------------------------------------------------------------------------------------
+											|
+											|
+-----------------------------------------------------------------------------------------
+
+				Imagenes	div.carousel-inner					|
+											|
+											|
+											|
+	a.carousel-control-prev<		img div.carousel-item .active(un item tiene un texto y una imagen)	>a.carousel-control-next		|
 
 
+				bOTON O TEXTO div.carousel-caption
 
-
-
-
-
+			-		-		- ()botones ul.carousel-indicators		
+								li.active
+								data-target="#micarousel"
+								data-slide-to="0"//numero de diapositivas
 
 
 
