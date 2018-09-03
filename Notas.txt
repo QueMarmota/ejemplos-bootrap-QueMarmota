@@ -303,12 +303,12 @@ Para mostrar modal (.data-toggle en el button)
 											|
 											|
 -----------------------------------------------------------------------------------------
-
-				Imagenes	div.carousel-inner					|
+											|
+				Imagenes	div.carousel-inner			|
 											|
 											|
 											|
-	a.carousel-control-prev<		img div.carousel-item .active(un item tiene un texto y una imagen)	>a.carousel-control-next		|
+a.carousel-control-prev<img div.carousel-item .active(un item tiene un texto y una imagen)	>a.carousel-control-next		|
 
 
 				bOTON O TEXTO div.carousel-caption
@@ -317,6 +317,32 @@ Para mostrar modal (.data-toggle en el button)
 								li.active
 								data-target="#micarousel"
 								data-slide-to="0"//numero de diapositivas
+
+
+
+
+*************************************************************************Card (tarjetas)********************************************************
+
+NO ES RESPONSIVO
+
+----------------
+	  	|div.card		FORMAS DE ACOMODAR TARJETAS->
+div.card-head	|			div.card-group(distribuye varias carpetas en un contenedor)
+----------------|			card-deck
+		|			div.card-columns(agrupa las tarjetas por columnas)
+img-card-img-top|
+----------------|
+div.card-body   |
+		|
+		|
+		|
+		|
+----------------|
+div.card-footer	|
+		|
+----------------|
+
+
 
 
 
