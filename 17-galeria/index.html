@@ -11,36 +11,31 @@
     <title>Galeria</title>
   </head>
   <body>
-      <div class="container">
-            <h1 class="text-center">Galeria de imagenes</h1>
-            <div class="card-columns">
-                <div class="card">
-                    <a href="#modal1" data-toggle="modal">
-                        <img class="card-img-top" src="galeria/1.jpg" alt="">
-                    </a>
-                    <div class="modal fade" id="modal1">
-                        <div class="modal-dialog modal-dialog-centered modal-lg">
-                            <div class="modal-content">
-                                <img class="img-fluid" src="galeria/1.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <a href="">
-                        <img class="card-img-top" src="galeria/4.jpg" alt="">
-                    </a>
-                    
-                </div>
-                <div class="card">
-                    <a href="">
-                        <img class="card-img-top" src="galeria/5.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-                        
-      </div>
-    
+      
+        <div class="container">
+                <h1 class="text-center">Galeria de imagenes</h1>
+                <div class="card-columns " id="galeria">
+                   <!-- inner html -->
+                </div>            
+        </div>
+        <script>
+            var galeria = document.getElementById('galeria');
+            for (let index = 1; index < 11; index++) {                
+                var imagen=index;
+                 galeria.innerHTML+=` <div class="card">
+                         <a href="#modal${imagen}" data-toggle="modal" >
+                             <img class="card-img-top" src="galeria/${imagen}.jpg" alt="">
+                         </a>   
+                         <div class="modal fade" id="modal${imagen}">
+                             <div class="modal-dialog modal-dialog-centered modal-lg">
+                                 <div class="modal-content">
+                                     <img src="galeria/${imagen}.jpg" class="img-fluid" alt="">
+                                 </div>
+                             </div>
+                         </div>                   
+                     </div>`;
+                }              
+         </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
