@@ -1,5 +1,7 @@
 *************************************************Clases para alinear objetos**************************************************************************************
 
+//EL AUTO SOLO APLICA A LOS MARGENES
+
 vertical	.row
 	.align-items-center
 			start
@@ -25,7 +27,7 @@ horizontal	.row
 
 
 
-{Propiedad}		{lados}					-			{tamaño}
+{Propiedad}		{lados}					-			{tamaï¿½o}
 
 	m-p		t-b-l-r-x-y
 (margin-pading)		(top-bottom-left-right-xhorizontal-yvertical,)	-		(0,(eliminar )
@@ -40,7 +42,7 @@ px-3
 pt-4
 mt-1
 
-para usar tamaños con web responsive
+para usar tamaï¿½os con web responsive
 
 p-md-4
 mt-lg-1										,OUT)
@@ -164,7 +166,7 @@ Clases
 
 		.FORM-INLINE(ACOMODAR LOS ELEMENTOS EN LINEA)
 		.FORM-ROW(varius input en una linea)
-		.FORM-CONTROL-SM(LO HACE MAS PEQUEÑO)
+		.FORM-CONTROL-SM(LO HACE MAS PEQUEï¿½O)
 		form-check(este va en el div que contiene al check box)
 		form-check-input(este va en el input dell check box)
 		form-check-label
@@ -235,7 +237,7 @@ ALERT
 div.alert
 	.alert-warning
 
-			Encabezado.Alert-heading	X(close).data-dismiss="alert"
+			Encabezado.Alert-heading	X(.close)data-dismiss="alert"
 			
 			texto
 
@@ -261,8 +263,8 @@ MODAL(.modal)
 
 
 
-Para mostrar modal (.data-toggle en el button)
-			.data-target="#idmodal"
+Para mostrar modal (data-toggle="modal" en el button)
+			data-target="#idmodal"
 
 
 
@@ -351,8 +353,10 @@ Acordeon
   a data-toggle="collapse"
   href="#id"
 
+.card
 ----------------
-.card-header		|
+		|
+.card-header	|
 texto		|
 		|
 ----------------
